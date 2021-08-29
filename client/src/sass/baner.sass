@@ -1,0 +1,46 @@
+.main-b
+  position: relative
+  &::after
+    content: ''
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background: rgba(0, 0, 0, 0.3)
+    width: 100%
+    height: 100%
+    position: absolute
+    z-index: 1
+  &__foto
+    display: block
+    width: 100%
+    height: 100vh
+    object-fit: cover
+    object-position: top right
+
+.watch
+  position: absolute
+  width: 100%
+  top: 15%
+  font-size: 15px
+  color: $text-color-base
+  z-index: 2
+  &__title
+    padding-left: 15px
+    font-size: 21px
+    line-height: 120%
+    +Gelasio-bold
+  &__text
+    padding-left: 15px
+    margin: 20px 0px
+    font-size: 7px
+    line-height: 160%
+    opacity: 0.6
+    +Roboto-regular
+  &__btn
+    margin-left: 15px
+    padding: 8px 17px 7px 16px
+    border-radius: 3px
+    font-size: 7px
+    line-height: 160%
+    +Roboto-regular

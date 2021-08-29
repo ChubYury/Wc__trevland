@@ -1,0 +1,76 @@
+
+//************ Roboto *************************
+@font-face {
+  font-family: 'Roboto-Regular';
+
+  src: url('../fonts/Roboto.woff2') format('woff2'),
+    url('../fonts/Roboto.woff') format('woff'),
+    url('../fonts/Roboto.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin Roboto-regular {
+  font-family: 'Roboto-Regular', sans-serif;
+}
+
+@font-face {
+  font-family: 'Roboto-Medium';
+
+  src: url('../fonts/Robotomedium.woff2') format('woff2'),
+    url('../fonts/Robotomedium.woff') format('woff'),
+    url('../fonts/Robotomedium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin Roboto-medium {
+  font-family: 'Roboto-Medium', sans-serif;
+}
+
+
+//************ Gelasio **********************************
+
+@font-face {
+  font-family: 'Gelasio-Medium';
+
+  src: url('../fonts/Gelasio-Medium.woff2') format('woff2'),
+    url('../fonts/Gelasio-Medium.woff') format('woff'),
+    url('../fonts/Gelasio-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin Gelasio-Medium {
+  font-family: 'Gelasio-Medium', sans-serif;
+}
+
+@font-face {
+  font-family: 'Gelasio-Bold';
+
+  src: url('../fonts/Gelasio-Bold.woff2') format('woff2'),
+    url('../fonts/Gelasio-Bold.woff') format('woff'),
+    url('../fonts/Gelasio-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin Gelasio-bold {
+  font-family: 'Gelasio-Bold', sans-serif;
+}
+
+//******************** Ribeye *******************************
+
+@font-face {
+  font-family: 'Ribeye-Regular';
+
+  src: url('../fonts/Ribeye-Regular.woff2') format('woff2'),
+    url('../fonts/Ribeye-Regular.woff') format('woff'),
+    url('../fonts/Ribeye-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin Ribeye-regular {
+  font-family: 'Ribeye-Regular', sans-serif;
+}

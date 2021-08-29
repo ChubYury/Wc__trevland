@@ -1,0 +1,302 @@
+
+.container
+  --container-width: 100%
+  width: var(--container-width)
+  margin: 0 auto
+  padding: 0 15px
+
+@media (min-width: 576px)
+  .container
+    --container-width: var(--mq-size-sm)
+    .navigation
+      display: block
+      &__item
+        margin: 14px 7px
+      &__link
+        font-size: 15px
+
+    .menu__btn
+      display: none
+
+    .btn-create
+      display: block
+      padding: 9px 19px 8px 18px
+      font-size: 12px
+      line-height: 150%
+
+    .watch
+      top: 130px
+      &__title
+        margin-top: 100px
+        font-size: 40px
+      &__text
+        margin: 30px 0px
+        font-size: 18px
+      &__btn
+        padding: 13px 23px 12px 22px
+        font-size: 11px
+        line-height: 160%
+        +Roboto-regular
+
+    .location__wrap
+      &__title
+        font-size: 35px
+      &__subtitle
+        font-size: 18px
+
+      .card
+        height: 500px
+        &__foto
+          height: 331px
+        &__title
+          margin: 30px 0px 20px 0px
+          font-size: 24px
+        &__description
+          font-size: 18px
+
+  .blog
+    &__title
+      margin: 70px 0px 10px 0px
+      font-size: 43px
+    &__subtitle
+      margin: 10px 0px 30px 0px
+      font-size: 18px
+    .blog-b
+      width: 100%
+      height: 550px
+      &__foto
+        width: 100%
+        height: 290px
+      &__title
+        margin-top: 15px
+        font-size: 20px
+      &__description
+        margin: 10px 0px 10px 0px
+        font-size: 18px
+      &__author
+        font-size: 20px
+    .blog-s
+      width: 100%
+      height: 201px
+      margin: 10px
+      &__foto
+        width: 263px
+        height: 100%
+        margin-right: 5px
+      &__title
+        margin-top: 5px
+        font-size: 20px
+      &__description
+        font-size: 18px
+      &__author
+        font-size: 20px
+
+  .foot
+    &__wrap
+      .info
+        width: 200px
+        margin-right: 10px
+        &__logo-min
+          margin: 30px auto 10px 0px
+        &__email
+          text-align: start
+
+      .soc-links
+        justify-content: flex-start
+        &__link
+          margin: 0px 20px 0px 0px
+          &-icon
+            width: 20px
+            height: 20px
+
+      .sitebar
+        width: 160px
+        margin-top: 30px
+
+@media (min-width: 768px)
+  .container
+    --container-width: var(--mq-size-md)
+    .navigation
+      &__item
+        margin: 30px 15px 30px 15px
+      &__link
+        font-size: 16px
+
+    .btn-create
+      font-size: 14px
+
+    .watch
+      &__title
+        margin-top: 110px
+        font-size: 50px
+      &__text
+        margin: 30px 0px
+        font-size: 16px
+      &__btn
+        padding: 13px 23px 12px 22px
+        font-size: 14px
+        line-height: 160%
+        +Roboto-regular
+
+    .location__wrap
+      .location
+        &__title
+          font-size: 35px
+        &__subtitle
+          font-size: 18px
+
+      .card
+        width: 45%
+        &__title
+          margin-top: 10px
+          font-size: 24px
+        &__description
+          font-size: 18px
+
+  .bg__foto
+    object-fit: cover
+    object-position: top center
+
+  .blog
+    &__wrap
+
+      .blog-b
+        width: 554px
+        height: 620px
+        align-self: center
+        &__foto
+          width: 100%
+          height: 411px
+        &__title
+          margin-top: 15px
+          font-size: 20px
+        &__description
+          margin: 10px 0px 10px 0px
+          font-size: 18px
+        &__author
+          font-size: 20px
+
+      .blog-s
+        width: 533px
+        margin: 10px
+        align-self: center
+        &__foto
+          margin-right: 5px
+        &__title
+          margin-top: 5px
+          font-size: 20px
+        &__description
+          font-size: 18px
+        &__author
+          font-size: 20px
+
+@media (min-width: 992px)
+  .container
+    --container-width: var(--mq-size-lg)
+    .navigation
+      &__item
+        margin: 30px 15px 30px 15px
+      &__link
+        font-size: 18px
+
+    .btn-create
+      padding: 11px 27px 10px 25px
+      border-radius: 5px
+      font-size: 16px
+      line-height: 150%
+
+    .watch
+      &__title
+        font-size: 55px
+      &__text
+        margin: 30px 0px
+        font-size: 18px
+      &__btn
+        padding: 18px 28px 17px 27px
+        border-radius: 5px
+        font-size: 16px
+        line-height: 160%
+        +Roboto-regular
+
+    .location__wrap
+
+      .card
+        width: 31%
+        &__title
+          margin-top: 10px
+          font-size: 24px
+        &__description
+          font-size: 18px
+          margin: 0px 5px
+
+    .blog
+      &__wrap
+        max-height: 700px
+        .blog-b
+          width: 50%
+          height: 620px
+          align-self: center
+          &__foto
+            width: 100%
+            height: 411px
+          &__title
+
+            margin-top: 15px
+            font-size: 20px
+          &__description
+            margin: 10px 0px 10px 0px
+            font-size: 18px
+          &__author
+            font-size: 20px
+
+        .blog-s
+          width: 40%
+          height: 180px
+          margin: 0px 10px 20px 20px
+          align-self: center
+          &__foto
+            width: 180px
+            height: 100%
+            margin-right: 5px
+          &__title
+            margin-top: 5px
+            font-size: 20px
+          &__description
+            width: 60%
+            font-size: 18px
+          &__author
+            font-size: 20px
+
+    .foot
+      &__wrap
+        justify-content: space-between
+        .info
+          width: 200px
+          margin-right: 10px
+          &__logo-min
+            margin: 30px auto 10px 0px
+          &__email
+            text-align: start
+
+        .soc-links
+          justify-content: flex-start
+          &__link
+            margin: 0px 20px 0px 0px
+            &-icon
+              width: 20px
+              height: 20px
+
+        .sitebar
+          width: 160px
+          margin-top: 30px
+    .form-wrap
+      width: 350px
+      margin-top: 20px
+
+@media (min-width: 1200px)
+  .container
+    --container-width: var(--mq-size-xl)
+
+    .watch
+      &__title
+        font-size: 65px

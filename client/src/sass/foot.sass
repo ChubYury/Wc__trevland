@@ -1,0 +1,92 @@
+
+.foot
+  background: #F6FBFB
+  &__wrap
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    align-items: flex-start
+    justify-content: center
+    padding-bottom: 50px
+
+    .info
+      width: 100%
+      &__logo-min
+        width: 124px
+        height: 35px
+        margin: 30px auto 10px auto
+        &--img
+          width: 100%
+      &__email
+        margin: 20px 0px
+        text-decoration: none
+        width: 100%
+        font-size: 16px
+        line-height: 160%
+        text-align: center
+        letter-spacing: 0.06em
+        +Roboto-regular
+    .soc-links
+      display: flex
+      flex-wrap: wrap
+      align-items: center
+      justify-content: center
+      &__link
+        margin: 0px 10px
+        &-icon
+          width: 20px
+          height: 20px
+
+    .sitebar
+      width: 40%
+      //margin: 0px 10%
+      &__link
+        text-decoration: none
+        width: 100%
+        color: $theme-color-base
+        font-size: 16px
+        line-height: 150%
+        letter-spacing: 0.06em
+        +Roboto-medium
+
+    .form-wrap
+      display: flex
+      flex-wrap: wrap
+      align-items: center
+      justify-content: center
+      padding: 14px
+
+      &__title
+        width: 100%
+        margin-bottom: 10px
+        font-size: 20px
+        line-height: 150%
+        letter-spacing: 0.06em
+        color: $theme-color-base
+        text-align: center
+        +Roboto-regular
+      &__email
+        width: 50%
+        height: 30px
+        margin-right: 15px
+        border: 1px solid rgba(0, 0, 0, 0.2)
+        box-shadow: 20px 20px 40px rgba(205, 205, 205, 0.25)
+        border-radius: 5px
+        font-size: 16px
+        line-height: 150%
+        letter-spacing: 0.06em
+        color: $text-color-base
+        +Roboto-regular
+        &::placeholder
+          padding-left: 10px
+          font-size: 16px
+          line-height: 150%
+          letter-spacing: 0.06em
+          color: $theme-color-base
+          +Roboto-regular
+      &__btn
+        padding: 5px 20px 4px 20px
+        font-size: 16px
+        line-height: 150%
+        letter-spacing: 0.06em
+        border: none
